@@ -4,8 +4,10 @@
 }
 button {
   font-size: large;
-  color: ghostwhite;
-  padding: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
   border-radius: 10px;
   background-color: deeppink;
 }
@@ -20,7 +22,7 @@ footer {
 }
 html {
   background-color: lightseagreen;
-  font-family: Monospaced, monospace;
+  font-family: "Roboto Light", monospace, serif, sans-serif;
   color: ghostwhite;
   margin-right: 5%;
   margin-left: 5%;
@@ -41,7 +43,7 @@ li {
 }
 .bg-modal {
   display: none;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: lightcyan;
   position: absolute;
   padding: 40px;
   top: 0;
@@ -55,8 +57,10 @@ li {
   padding: 0;
   width: 225px;
   outline: none;
-  background-color: rgba(0, 0, 0, 0);
+  color: ghostwhite;
+  background: rgba(0, 0, 0, 0.0);
 }
+
 .company {
   float: left;
   margin-bottom: 1em;
@@ -78,8 +82,8 @@ li {
 .item > a {
   color: ghostwhite;
   text-decoration: none;
-  border: 1px solid black;
-  border-radius: 10px;
+  border: ghostwhite;
+  border-radius: 11px;
   padding: 10px;
   background-color: deeppink;
 }
