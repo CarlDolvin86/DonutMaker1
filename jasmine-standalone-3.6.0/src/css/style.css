@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+button {
+  font-size: large;
+  color: ghostwhite;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: deeppink;
+}
+footer {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  text-align: right;
+  color: ghostwhite;
+  width: 100%;
+  font-size: 100%;
+}
+html {
+  background-color: lightseagreen;
+  font-family: Monospaced, monospace;
+  color: ghostwhite;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+h1 {
+  font-size: xx-large;
+  color: ghostwhite;
+}
+img {
+  width: 75%;
+}
+li {
+  float: right;
+  display: inline-flex;
+  list-style: none;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+.bg-modal {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  padding: 40px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+}
+.click-button {
+  border: none;
+  padding: 0;
+  width: 225px;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+.company {
+  float: left;
+  margin-bottom: 1em;
+}
+.donut-img-counter {
+  position: absolute;
+  top: 25em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.increase-donuts-per-click,
+.auto-clicker-container {
+  width: 400px;
+}
+.include-company-nav {
+  margin-bottom: 3%;
+}
+.item > a {
+  color: ghostwhite;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: deeppink;
+}
+.modal {
+  display: none;
+  background-color: lightcyan;
+  color: black;
+  position: absolute;
+  top: 27%;
+  height: auto !important;
+  right: 30%;
+  left: 30%;
+  padding: 40px;
+}
+.nav-bar {
+  padding-left: 0;
+  font-size: small;
+}
+.nav-container {
+  margin-left: 10%;
+}
+.parent {
+  position: relative;
+  width: 100%;
+}
+.store {
+  display: flex;
+}
+.sec-container {
+  display: inline-flex;
+}
