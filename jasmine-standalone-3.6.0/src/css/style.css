@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 button {
   font-size: large;
@@ -16,23 +16,21 @@ footer {
   left: 0;
   position: fixed;
   text-align: right;
-  color: ghostwhite;
   width: 100%;
   font-size: 100%;
 }
 html {
   background-color: lightseagreen;
-  font-family: "Roboto Light", monospace, serif, sans-serif;
+  font-family: "Roboto Light", Monospaced, monospace;
   color: ghostwhite;
   margin-right: 5%;
   margin-left: 5%;
 }
 h1 {
   font-size: xx-large;
-  color: ghostwhite;
 }
 img {
-  width: 75%;
+  width: 225px;
 }
 li {
   float: right;
@@ -43,7 +41,7 @@ li {
 }
 .bg-modal {
   display: none;
-  background-color: lightcyan;
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   padding: 40px;
   top: 0;
@@ -55,12 +53,12 @@ li {
 .click-button {
   border: none;
   padding: 0;
+  padding-bottom: 0;
   width: 225px;
   outline: none;
   color: ghostwhite;
-  background: rgba(0, 0, 0, 0.0);
+  background-color: rgba(0, 0, 0, 0);
 }
-
 .company {
   float: left;
   margin-bottom: 1em;
@@ -80,17 +78,19 @@ li {
   margin-bottom: 3%;
 }
 .item > a {
-  color: ghostwhite;
+  color: black;
   text-decoration: none;
-  border: ghostwhite;
-  border-radius: 11px;
-  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
   background-color: deeppink;
 }
 .modal {
   display: none;
-  background-color: lightcyan;
-  color: black;
+  background-color: deepskyblue;
   position: absolute;
   top: 27%;
   height: auto !important;

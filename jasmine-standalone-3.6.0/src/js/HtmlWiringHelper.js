@@ -30,10 +30,7 @@ class HtmlWiringHelper {
     element.innerText =
       Math.round (this.donutMaker.getAutoClickerCost () * 100) / 100;
   }
-  updateAutoClickerIncreaseDisplay (element) {
-    element.innerText =
-    Math.round (this.donutMaker.getAutoClickerIncrease () * 100) / 100;
-  }
+
   updateNavPages (element) {
     element.style.display = 'block';
   }
