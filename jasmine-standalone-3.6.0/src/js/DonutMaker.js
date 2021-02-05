@@ -11,17 +11,17 @@ class DonutMaker {
     this._autoClicker = 0;
     this._autoClickerIncrease = 1.1;
   }
-  recordClick() {
+  recordClick () {
     this._donutCount += this._clickerMultiplier;
   }
-  recordClickerMultiplier() {
+  recordClickerMultiplier () {
     if (this._donutCount - this._clickerMultiplierCost >= 0) {
       this._donutCount -= this._clickerMultiplierCost;
       this._numberOfMultiplier++;
       this._clickerMultiplier = Math.pow (1.2, this._numberOfMultiplier);
       this._multiplyAmountDisplay = Math.pow (
-        1.2,
-        this._numberOfMultiplier + 1
+          1.2,
+          this._numberOfMultiplier + 1
       );
       this._clickerMultiplierCost *= this._multiplierCost;
     }

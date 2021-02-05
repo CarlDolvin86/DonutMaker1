@@ -5,20 +5,20 @@ class HtmlWiringHelper {
   }
   updateDonutCountDisplay (element) {
     element.innerText =
-      Math.round (this.donutMaker.getDonutCount () * 1000) / 1000;
+        Math.round (this.donutMaker.getDonutCount () * 1000) / 1000;
     document.title = element.innerText + ' Donuts!';
   }
   updateMultiplierDisplay (element) {
     element.innerText =
-      Math.round (this.donutMaker.getMultiplyAmountDisplay () * 100) / 100;
+        Math.round (this.donutMaker.getMultiplyAmountDisplay () * 100) / 100;
   }
   updateCurrentClickValue (element) {
     element.innerText =
-      Math.round (this.donutMaker.getClickerMultiplier () * 100) / 100;
+        Math.round (this.donutMaker.getClickerMultiplier () * 100) / 100;
   }
   updateMultiplierCostDisplay (element) {
     element.innerText =
-      Math.round (this.donutMaker.getClickerMultiplierCost () * 100) / 100;
+        Math.round (this.donutMaker.getClickerMultiplierCost () * 100) / 100;
   }
   updateNumberOfMultiplierDisplay (element) {
     element.innerText = Math.round (this.donutMaker.getNumberOfMultiplier ());
@@ -28,9 +28,8 @@ class HtmlWiringHelper {
   }
   updateAutoClickerCostDisplay (element) {
     element.innerText =
-      Math.round (this.donutMaker.getAutoClickerCost () * 100) / 100;
+        Math.round (this.donutMaker.getAutoClickerCost () * 100) / 100;
   }
-
   updateNavPages (element) {
     element.style.display = 'block';
   }

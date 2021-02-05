@@ -1,4 +1,4 @@
-export {DonutMaker} from 'jasmine-standalone-3.6.0/src/js/app.js';
+export {updateDonutCount} from 'jasmine-standalone-3.6.0/src/js/app.js';
 describe ('updateDonutCount changes donut-count element when a click of the button happens.', () => {
   it ('Click the button once should update count.', () => {
     const clickButton = document.querySelector ('.click-button');

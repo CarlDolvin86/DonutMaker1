@@ -1,5 +1,5 @@
-import {HtmlWiringHelper} from '/jasmine-standalone-3.6.0/src/js/HtmlWiringHelper.js';
-import {DonutMaker} from 'jasmine-standalone-3.6.0/spec/js/DonutMaker.spec.js'
+import {HtmlWiringHelper} from 'jasmine-standalone-3.6.0/src/js/HtmlWiringHelper.js';
+import {DonutMaker} from 'jasmine-standalone-3.6.0/src/js/DonutMaker.js'
 describe ('HtmlWiringHelper wires up elements to the DonutMaker object.', () => {
   it ('Wire up the donut count to the DonutMaker count.', () => {
     const donutMaker = new DonutMaker ();
